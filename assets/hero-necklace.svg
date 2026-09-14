@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 760" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Colorful Hazy Daisy necklace</title>
+  <desc id="heroDesc">A coral, turquoise, pearl, black, and gold beaded necklace with a daisy pendant on an abstract sunset background.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4a895"/>
+      <stop offset=".52" stop-color="#f5d47f"/>
+      <stop offset="1" stop-color="#83cfc3"/>
+    </linearGradient>
+    <radialGradient id="pearl" cx=".32" cy=".25" r=".75">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".45" stop-color="#fff8eb"/>
+      <stop offset="1" stop-color="#c8aa9c"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0a5"/>
+      <stop offset=".45" stop-color="#d7a83f"/>
+      <stop offset="1" stop-color="#9b6b1e"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="170%" height="170%">
+      <feDropShadow dx="8" dy="12" stdDeviation="10" flood-color="#4a2930" flood-opacity=".2"/>
+    </filter>
+    <filter id="hardShadow" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="4" dy="5" stdDeviation="0" flood-color="#28232d" flood-opacity=".95"/>
+    </filter>
+  </defs>
+
+  <rect width="720" height="760" rx="54" fill="url(#sky)"/>
+  <circle cx="590" cy="122" r="82" fill="#f8d36d" opacity=".88"/>
+  <path d="M0 592C139 530 243 612 367 577c120-34 202-146 353-97v280H0Z" fill="#6cbdb4" opacity=".54"/>
+  <path d="M-20 667c139-100 268-36 386-62 136-30 190-109 374-72v247H-20Z" fill="#745686" opacity=".25"/>
+  <path d="M83 94c42 12 75 4 106-22" fill="none" stroke="#fff8ef" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+  <path d="M85 110c30 8 54 5 78-10" fill="none" stroke="#fff8ef" stroke-width="3" stroke-linecap="round" opacity=".45"/>
+
+  <g opacity=".8" fill="none" stroke="#28232d" stroke-width="2">
+    <circle cx="107" cy="620" r="47" stroke-dasharray="5 10"/>
+    <circle cx="632" cy="594" r="36" stroke-dasharray="4 9"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <path d="M132 154C150 318 230 466 359 513c130-46 210-195 229-359" fill="none" stroke="#343039" stroke-width="5" stroke-linecap="round"/>
+    <path d="M133 154C151 317 231 463 359 509c128-45 208-192 228-355" fill="none" stroke="#fff4da" stroke-width="1.5" stroke-linecap="round" opacity=".6"/>
+
+    <g stroke="#28232d" stroke-width="3">
+      <circle cx="137" cy="191" r="19" fill="#ef765f"/>
+      <rect x="127" y="217" width="34" height="34" rx="10" fill="#71c8bc" transform="rotate(22 144 234)"/>
+      <circle cx="159" cy="281" r="18" fill="url(#pearl)"/>
+      <circle cx="183" cy="329" r="22" fill="#383537"/>
+      <circle cx="211" cy="374" r="18" fill="#f6c85f"/>
+      <path d="M232 398l17-12 18 11-2 21-20 8-16-13Z" fill="#ef765f"/>
+      <circle cx="278" cy="448" r="22" fill="#71c8bc"/>
+      <circle cx="319" cy="482" r="19" fill="url(#pearl)"/>
+      <rect x="342" y="491" width="36" height="36" rx="12" fill="url(#gold)" transform="rotate(43 360 509)"/>
+
+      <circle cx="405" cy="482" r="19" fill="#f3a6ad"/>
+      <circle cx="447" cy="448" r="22" fill="#2e3332"/>
+      <path d="M474 398l17-12 18 11-2 21-20 8-16-13Z" fill="#71c8bc"/>
+      <circle cx="515" cy="374" r="18" fill="url(#pearl)"/>
+      <circle cx="542" cy="329" r="22" fill="#ef765f"/>
+      <circle cx="565" cy="281" r="18" fill="#f6c85f"/>
+      <rect x="563" y="217" width="34" height="34" rx="10" fill="#71c8bc" transform="rotate(-22 580 234)"/>
+      <circle cx="584" cy="191" r="19" fill="#383537"/>
+    </g>
+
+    <g fill="#fff8ef" opacity=".74">
+      <circle cx="131" cy="184" r="5"/>
+      <circle cx="270" cy="440" r="6"/>
+      <circle cx="535" cy="320" r="6"/>
+      <circle cx="475" cy="401" r="4"/>
+    </g>
+  </g>
+
+  <g transform="translate(360 575)" filter="url(#hardShadow)" stroke="#28232d" stroke-width="3">
+    <ellipse cx="0" cy="-25" rx="15" ry="28" fill="#fff8ef"/>
+    <ellipse cx="24" cy="-8" rx="15" ry="28" fill="#f3a6ad" transform="rotate(72 24 -8)"/>
+    <ellipse cx="15" cy="21" rx="15" ry="28" fill="#fff8ef" transform="rotate(144 15 21)"/>
+    <ellipse cx="-15" cy="21" rx="15" ry="28" fill="#ef765f" transform="rotate(-144 -15 21)"/>
+    <ellipse cx="-24" cy="-8" rx="15" ry="28" fill="#fff8ef" transform="rotate(-72 -24 -8)"/>
+    <circle r="18" fill="url(#gold)"/>
+  </g>
+
+  <path d="M352 520v22" stroke="#28232d" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="360" cy="539" r="9" fill="url(#gold)" stroke="#28232d" stroke-width="3"/>
+
+  <g fill="#fff8ef" stroke="#28232d" stroke-width="2">
+    <path d="M85 210l4 11 11 4-11 4-4 11-4-11-11-4 11-4 4-11Z"/>
+    <path d="M624 334l3 9 9 3-9 3-3 9-3-9-9-3 9-3 3-9Z"/>
+  </g>
+  <path d="M615 76l3 8 8 3-8 3-3 8-3-8-8-3 8-3 3-8Z" fill="#a994d6" stroke="#28232d" stroke-width="2"/>
+  <circle cx="99" cy="532" r="9" fill="#ef765f" stroke="#28232d" stroke-width="2"/>
+  <circle cx="611" cy="514" r="7" fill="#f6c85f" stroke="#28232d" stroke-width="2"/>
+
+  <g transform="translate(103 657) rotate(-9)" fill="none" stroke="#28232d" stroke-linecap="round">
+    <path d="M0 0c35 13 67 10 96-8" stroke-width="4"/>
+    <path d="M11 17c26 9 50 7 72-6" stroke-width="2"/>
+  </g>
+</svg>
